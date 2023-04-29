@@ -30,7 +30,12 @@ body {
     margin-left: 1rem;
 }
 .magnifyingDiv{
-    /* position: absolute;
-        bottom: 0;
-        left: 0; */
+    position: absolute;
+  
+        top: 0;
+        right: 0;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        width: 80px;
+        height: 80px;
 }
