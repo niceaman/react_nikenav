@@ -27,15 +27,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 .magnifyingDiv{
     position: absolute;
-    margin: auto;
-        top: 0;
-        right: 0;
-        background-color: antiquewhite;
-        border-radius: 10px;
-        width: 80px;
-        height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    top: 40px;
+    right: 0;
+
+    background-color: antiquewhite;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+    width: 40px;
+    height: 40px;
+}
+.underline{
+    border-bottom: 4px solid black;
+}
+.loBox{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
 }

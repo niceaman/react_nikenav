@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="container">
         <div className="hiBox">
-          <div className="hiDiv">
+          <div className="hiDiv underline">
             <p>ใหม่และโดดเด่น</p>
           </div>
           <div className="hiDiv">
@@ -31,7 +31,11 @@ function App() {
           </div>
         </div>
         <div className="loBox">
-          <h1>lobox</h1>
+          <div>loboxcl01</div>
+          <div>loboxcl02</div>
+          <div>loboxcl03</div>
+          <div>loboxcl04</div>
+          <div>loboxcl05</div>
         </div>
       </div>
     </>
